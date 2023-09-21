@@ -95,7 +95,7 @@ header{
     display: none;
 }
 .movie-item:hover{
-    transform:scale(1.3);
+    transform:scale(1.2);
     transition: all linear 300ms;
 }
 /* banner section */

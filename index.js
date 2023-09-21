@@ -36,7 +36,7 @@ function fetchAndBuildAllSection(){
 }
 function fetchAndBuildMoviesSection(fetchUrl,category){
     console.log(category.name)
-    fetch(fetchUrl)
+   return fetch(fetchUrl)
     .then(res=>res.json())
     .then(res=>{
         const movies = res.results;
@@ -44,6 +44,7 @@ function fetchAndBuildMoviesSection(fetchUrl,category){
          BuildMoviesSection(movies,category.name);
         }
         console.log(movies)
+        return movies;
     })
     .catch(err=>console.log(err));
 }
