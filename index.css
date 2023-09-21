@@ -59,6 +59,7 @@ header{
 
 /* movies Section CSS */
 .movies-section{
+    margin: 41px 0;
 }
 .movies-sec-heading{
     font-size: 20px;
